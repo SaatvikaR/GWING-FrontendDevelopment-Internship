@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Responsive NavBar</title>
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        
+        <div class="logo">TrendLoop 🛍️</div>
+        <p style="color:aliceblue;font-family: Georgia, 'Times New Roman', Times, serif;">The Fashion Store!</p>
+        
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="">Shop</a>
+                </li>
+                <li>
+                    <a href="">NewArrivals</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                 <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<script>
+  const hamburger = document.querySelector(".hamburger");
+  const navBar = document.querySelector(".nav-bar");
+
+  hamburger.onclick = function () {
+    navBar.classList.toggle("active");
+  };
+</script>
+
+
+
+
+</body>
+
+
+
+</html>
